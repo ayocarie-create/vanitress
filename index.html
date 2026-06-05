@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanitress — салон красоты</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+  <div class="bg-orbs">
+    <div class="bg-orb bg-orb--1"></div>
+    <div class="bg-orb bg-orb--2"></div>
+    <div class="bg-orb bg-orb--3"></div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <span class="logo__mark">V</span>
+        <span class="logo__text">Vanitress</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link">О нас</a></li>
+          <li><a href="#services" class="nav__link">Услуги</a></li>
+          <li><a href="#portfolio" class="nav__link">Портфолио</a></li>
+          <li><a href="#contacts" class="nav__link nav__link--cta">Записаться</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Открыть меню">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__orbs">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+      </div>
+      <div class="container hero__content">
+        <span class="hero__eyebrow">Салон красоты</span>
+        <h1 class="hero__title">Ваша красота —<br><em>наше искусство</em></h1>
+        <p class="hero__text">Индивидуальный подход, премиальные материалы и атмосфера, в которой хочется оставаться.</p>
+        <div class="hero__actions">
+          <a href="#contacts" class="btn btn--primary">Записаться</a>
+          <a href="#services" class="btn btn--ghost">Наши услуги</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__image-wrap reveal">
+            <img src="saloon.png" alt="Интерьер салона" class="about__image">
+          </div>
+          <div class="about__text-block reveal">
+            <span class="section-label">О нас</span>
+            <h2 class="section-title">Добро пожаловать в Vanitress</h2>
+            <p class="about__text">Мы — команда стилистов и колористов с более чем десятилетним опытом. В Vanitress каждая процедура начинается с диалога: мы слушаем ваши пожелания и подбираем образ, который подчеркнёт вашу индивидуальность.</p>
+            <p class="about__text">Уютное пространство, безопасные технологии окрашивания и внимание к деталям — то, за что нас выбирают снова и снова.</p>
+            <ul class="about__stats">
+              <li><strong>10+</strong><span>лет опыта</span></li>
+              <li><strong>5k+</strong><span>довольных клиентов</span></li>
+              <li><strong>15</strong><span>мастеров</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section id="services" class="section services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Услуги</span>
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <p class="section-desc">Полный спектр услуг для волос, лица и образа — от ежедневного ухода до праздничных преображений.</p>
+        </div>
+        <div class="services__grid">
+          <div class="service-card glass reveal">
+            <img src="image 2.png" alt="Стрижка и укладка" class="service-card__image">
+            <h3 class="service-card__title">Стрижка и укладка</h3>
+            <p class="service-card__text">Женские и мужские стрижки, моделирование формы, укладка на каждый день и особый случай.</p>
+          </div>
+          <div class="service-card glass reveal">
+            <img src="окрашивание.jpg" alt="Окрашивание" class="service-card__image">
+            <h3 class="service-card__title">Окрашивание</h3>
+            <p class="service-card__text">Блонд, мелирование, тонирование и сложные техники с защитой структуры волос.</p>
+          </div>
+          <div class="service-card glass reveal">
+            <img src="восстановление.jpg" alt="Уход и восстановление" class="service-card__image">
+            <h3 class="service-card__title">Уход и восстановление</h3>
+            <p class="service-card__text">SPA-ритуалы, ботокс для волос, кератин и глубокое питание для сияния и здоровья.</p>
+          </div>
+          <div class="service-card glass reveal">
+            <img src="свадебный образ.jpg" alt="Свадебный образ" class="service-card__image">
+            <h3 class="service-card__title">Свадебный образ</h3>
+            <p class="service-card__text">Причёска и макияж для невесты, репетиция и сопровождение в день торжества.</p>
+          </div>
+          <div class="service-card glass reveal">
+            <img src="image 3.png" alt="Брови и ресницы" class="service-card__image">
+            <h3 class="service-card__title">Брови и ресницы</h3>
+            <p class="service-card__text">Архитектура бровей, ламинирование, окрашивание и наращивание ресниц.</p>
+          </div>
+          <div class="service-card glass reveal">
+            <img src="image 6.png" alt="Маникюр" class="service-card__image">
+            <h3 class="service-card__title">Маникюр</h3>
+            <p class="service-card__text">Классический и аппаратный маникюр, покрытие гель-лаком, дизайн любой сложности.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Портфолио</span>
+          <h2 class="section-title">Примеры работ</h2>
+          <p class="section-desc">Несколько образов наших мастеров — вдохновение для вашего следующего визита.</p>
+        </div>
+        <div class="portfolio__grid">
+          <div class="portfolio__item reveal">
+            <img src="объемное окрашивание.jpg" alt="Объёмное окрашивание">
+            <div class="portfolio__caption">Объёмное окрашивание — колорист Анна</div>
+          </div>
+          <div class="portfolio__item reveal">
+            <img src="каре.jpg" alt="Каре с текстурной укладкой">
+            <div class="portfolio__caption">Каре с текстурной укладкой — стилист Мария</div>
+          </div>
+          <div class="portfolio__item reveal">
+            <img src="c39f49f8c8803277acf65b360b9fbcd3.jpg" alt="Свадебная причёска">
+            <div class="portfolio__caption">Свадебная причёска — образ для Елены</div>
+          </div>
+          <div class="portfolio__item reveal">
+            <img src="diploma.jpg" alt="Глянцевый уход">
+            <div class="portfolio__caption">Глянцевый уход — восстановление после окрашивания</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contacts">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Контакты</span>
+          <h2 class="section-title">Свяжитесь с нами</h2>
+          <p class="section-desc" style="color: rgba(245,240,235,0.7);">Запишитесь на консультацию или задайте вопрос — мы ответим в течение рабочего дня.</p>
+        </div>
+        <div class="contacts__grid">
+          <div class="reveal">
+            <ul class="contacts__list">
+              <li>
+                <span class="contacts__label">Телефон</span>
+                <a href="tel:+74951234567">+7 (800) 555-35-67</a>
+              </li>
+              <li>
+                <span class="contacts__label">Email</span>
+                <a href="mailto:hello@vanitress.ru">hello@vanitress.ru</a>
+              </li>
+              <li>
+                <span class="contacts__label">Адрес</span>
+                <span>Ставрополь, ул. Васильева, 12</span>
+              </li>
+              <li>
+                <span class="contacts__label">Часы работы</span>
+                <span>Пн–Вс: 10:00 – 21:00</span>
+              </li>
+            </ul>
+            <div class="socials">
+              <a href="#" class="socials__link" aria-label="Telegram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+              </a>
+              <a href="#" class="socials__link" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+              <a href="#" class="socials__link" aria-label="WhatsApp">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <form id="contact-form" class="contact-form glass reveal">
+            <h3 class="contact-form__title">Форма обратной связи</h3>
+            <div class="form-group">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" placeholder="Опишите ваш запрос..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Vanitress. Все права защищены.</span>
+      <a href="#top" class="footer__top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <!-- Модальное окно услуги -->
+  <div class="modal" id="service-modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+      <button class="modal__close" aria-label="Закрыть">×</button>
+      <img class="modal__image" src="" alt="">
+      <h3 class="modal__title"></h3>
+      <p class="modal__text"></p>
+      <button class="btn btn--primary modal__book-btn">Записаться на услугу</button>
+    </div>
+  </div>
+
+  <!-- Модальное окно портфолио (Lightbox) -->
+  <div class="modal portfolio-modal" id="portfolio-modal">
+    <div class="modal__overlay"></div>
+    <button class="modal__close" aria-label="Закрыть">×</button>
+    <button class="modal__nav modal__nav--prev" aria-label="Предыдущее фото">❮</button>
+    <button class="modal__nav modal__nav--next" aria-label="Следующее фото">❯</button>
+    <div class="modal__content">
+      <img class="modal__image" src="" alt="">
+      <p class="modal__caption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
